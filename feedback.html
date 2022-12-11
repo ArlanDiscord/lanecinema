@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>LaneCINEMA</title>
+		<link rel="stylesheet" href="feedback.css">
+	</head>
+	<body class="body lightTheme">
+		<header>
+			<div class="logo">
+				<img src="img/logo.png" alt="Логотип Компании" class="logoimg">
+				<h1>LaneCINEMA</h1>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="films.html">Фильмы</a></li>
+					<li><a href="#">Сериалы</a></li>
+					<li><a href="#">Мультфильмы</a></li>
+					<li><a href="./contact.html">Контакты</a></li>
+					<input type="button" value="Темная тема" class="themeButton" >
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<h2>Заполните форму обратной связи:</h2>
+			<form action="">
+				<div class="address">
+					<label for="fio">Введите свои ФИО:</label>
+					<input type="text" id="fio" placeholder="Заполните свои данные:">
+					<label for="email">Введите свою эл. почту:</label>
+					<input type="email" id="email" placeholder="Укажите свой email">
+					<label for="tel">Введите свой контактный телефон</label>
+					<input type="text" id="tel" placeholder="Укажите свой номер телефона">
+					<label for="data">Введите удобную дату для связи</label>
+					<input type="date" id="data">
+					<h3>Выберите удобный тип обратной связи</h3>
+					<label for="obr1">Телефонный разговор</label>
+					<input type="checkbox" id="obr1">
+					<label for="obr2">По электронной почте</label>
+					<input type="checkbox" id="obr2">
+					<label for="obr3">Личное присутствие</label>
+					<input type="checkbox" id="obr3">
+					<select name="select">
+						<option>Баг</option>
+						<option>Сотрудник</option>
+						<option>Жалоба</option>
+					  </select>
+					<label for="obr">Оставьте своё обращение:</label>
+					<textarea name="" id="obr" placeholder="Заполните форму обратной связи"></textarea>
+					<input type="button" value="Отправить" class="btn">
+				</div>
+			</form>
+		</main>
+		<footer>
+			<p class="footerp">LaneCINEMA @Copyright 2022 Все права защищены</p>
+			<div class="icon">
+				<img src="img/insta.png" class="iconimg">
+				<img src="img/discord.png" class="discordimg">
+				<img src="img/youtube.png" class="youtubeimg">
+			</div>
+		</footer>
+		<script src="script.js"></script>
+	</body>
+</html>
